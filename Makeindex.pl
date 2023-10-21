@@ -1,9 +1,10 @@
 #!/bin/perl -w
 
-my @files = `find . -executable -type f`; #-exec ls -lo --time-style=long-iso {} \; `;
+#my @files = `find . -executable -type f`; #-exec ls -lo --time-style=long-iso {} \; `;
+my @files = `find . -maxdepth 1 -executable -type f `; #-exec ls -lo --time-style=long-iso {} \; `;
 chomp @files;
 my $ln = join(" ", @files);
-@ls = `ls -lo --time-style=long-iso $ln `;
+@ls = `ls -loh --time-style=long-iso $ln `;
 
 #print @ls;
  
