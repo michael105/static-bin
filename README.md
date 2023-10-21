@@ -2,6 +2,8 @@
 
 Linux 64bit
 
+(files ending with xz are compressed, and need to be decompressed)
+
 
 ### Contents
 
@@ -28,5 +30,4 @@ term_readkey                   2023-10-21             17K
 tohex                          2023-10-21             14K
 totp                           2023-10-21             9.5K
 ===========================================================
-                                         size: 882.2 Bytes
 ```
