@@ -2,8 +2,6 @@
 
 Linux 64bit
 
-(files ending with xz are compressed, and need to be decompressed)
-
 
 ### Contents
 
