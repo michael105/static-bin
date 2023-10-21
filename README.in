@@ -3,6 +3,13 @@
 Linux 64bit
 
 
+Currently some of the builds are a bit bloated,
+I'm about to port them to minilib.
+
+slterm is linked with fontconfig and freetype2. 
+
+What is imho not the slimest possiblity. Have to sort that out.
+
 ### Contents
 
 ```
