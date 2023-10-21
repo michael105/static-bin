@@ -16,7 +16,14 @@ my $ln = join(" ", @files);
 		#	print $s; 
 			$s=~/\s*(\S*)\s*(\S*)\s*\S*\s*.\/(\S*)/; 
 			$s= $1; $d=$2; $f=$3; 
-			$size+=$s;
+			if ( $s=~/(.*)K/ ){
+				$size+=($1*1024);
+			} elsif ( $s=~/(.*)M/ ) {
+				$size+=($1*1024*1024);
+			} else {
+				$size+=$s;
+			}
+
 		#	print "s: $s d:$d f: $f\n";
 			$h->{$f}->{s}=$s;$h->{$f}->{d}=$d;
 	} 
@@ -25,4 +32,4 @@ my $ln = join(" ", @files);
 	}
 
 	print("===========================================================\n");
-	printf("%+59s", "size: $size Bytes\n");
+	printf("%+44s size: %d KB\n","",($size/1024));
