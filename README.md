@@ -7,7 +7,6 @@ Currently some of the builds are a bit bloated,
 I'm about to shrink them. 
 
 slterm is linked with fontconfig and freetype2. 
-
 What is imho not the slimest possiblity. Have to sort that out.
 
 Several of the tools don't accept any options, they pipe stdin to stdout.
@@ -30,12 +29,14 @@ daft-dhcp-client               2023-10-21             11K
 dash                           2023-10-21             163K
 dighosts                       2023-10-21             129K
 et2                            2023-10-21             21K
+fosh                           2023-10-23             17K
 fromhex                        2023-10-21             697
 lockfile                       2023-10-21             3.7K
 lsmod                          2023-10-21             2.9K
 md6sum                         2023-10-21             5.1K
 micro-http                     2023-10-21             8.0K
 nc                             2023-10-21             74K
+pdksh                          2023-10-23             105K
 proxy                          2023-10-21             173K
 sash                           2023-10-21             33K
 sed                            2023-10-21             17K
@@ -57,5 +58,5 @@ utf8conv                       2023-10-21             9.0K
 xzd                            2023-10-21             12K
 xzminidec                      2023-10-21             97K
 ===========================================================
-                                             size: 1610 KB
+                                             size: 1732 KB
 ```
