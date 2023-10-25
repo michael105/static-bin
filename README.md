@@ -22,8 +22,6 @@ ascii                          2023-10-21             5.4K
 base32                         2023-10-21             1.1K
 base32d                        2023-10-21             1017
 base91                         2023-10-21             1.8K
-blake2s_sum                    2023-10-24             1.0K
-blake3sum                      2023-10-21             4.0K
 conv                           2023-10-21             3.1K
 cpconv                         2023-10-21             14K
 daft-dhcp-client               2023-10-21             11K
@@ -52,7 +50,6 @@ splitvt                        2023-10-21             25K
 statx                          2023-10-21             5.5K
 tcpserver                      2023-10-21             74K
 term_readkey                   2023-10-21             17K
-tfcrypt                        2023-10-25             205K
 tinysh                         2023-10-21             3.4K
 tinysshd                       2023-10-21             159K
 tohex                          2023-10-21             529
@@ -62,5 +59,5 @@ utf8conv                       2023-10-21             9.0K
 xzd                            2023-10-21             12K
 xzminidec                      2023-10-21             97K
 ===========================================================
-                                             size: 1941 KB
+                                             size: 1731 KB
 ```
