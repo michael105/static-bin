@@ -2,12 +2,12 @@
 
 
 
-all:
+all: sha3sums.txt sha512sums.txt xorg
 	cp README.in README.md
 	perl ./Makeindex.pl >> README.md
 	echo '```' >> README.md
 
-up: all xorg
+up: all xorg sha3sums.txt
 	git add *
 	gtam Add binaries
 	git push
@@ -20,5 +20,17 @@ xorg:
 	cp README.in README.md
 	perl ../Makeindex.pl >> README.md
 	echo '```' >> README.md
+
+sha3sums.txt: 
+	sha3sum `find . -maxdepth 2 -type f -executable -name '??*' | sort` > sha3sums.txt
+
+sha512sums.txt: 
+	sha512sum `find . -maxdepth 2 -type f -executable -name '??*' | sort` > sha512sums.txt
+
+
+
+check:
+	sha3sum -c sha3sums.txt
+	sha512sum -c sha512sums.txt
 
 
