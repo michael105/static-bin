@@ -2,11 +2,13 @@
 
 Linux 64bit
 
+Relics of my experiments with shrinking elf binaries.
+
 most tools accept -h / --help
 
 Several of the tools don't have any options, they pipe stdin to stdout.
 
-eg blake3sum, base32, ..
+eg blake3sum, base32, tohex,..
 
 The link to these binaries is: https://github.com/michael105/static-bin/raw/refs/heads/main/toolname
 
