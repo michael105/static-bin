@@ -2,16 +2,16 @@
 
 Linux 64bit
 
+most tools accept -h / --help
 
-Currently some of the builds are a bit bloated,
-I'm about to shrink them. 
-
-slterm is linked with fontconfig and freetype2. 
-What is imho not the slimest possiblity. Have to sort that out.
-
-Several of the tools don't accept any options, they pipe stdin to stdout.
+Several of the tools don't have any options, they pipe stdin to stdout.
 
 eg blake3sum, base32, ..
+
+The link to these binaries is: https://github.com/michael105/static-bin/raw/refs/heads/main/toolname
+
+(replace toolname with the tool's name. you might need to chmod a+x the downloaded file..)
+
 
 
 ### Contents
