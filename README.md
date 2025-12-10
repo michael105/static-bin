@@ -19,7 +19,9 @@ The link to these binaries is: https://github.com/michael105/static-bin/raw/refs
 ### Contents
 
 ```
+3proxy                         2025-12-10             312K
 ascii                          2023-10-21             5.4K
+base                           2025-12-10             1.1K
 base32                         2023-10-21             1.1K
 base32d                        2023-10-21             1017
 base91                         2023-10-21             1.8K
@@ -34,6 +36,7 @@ dighosts                       2023-10-21             129K
 et2                            2023-10-21             21K
 fosh                           2023-10-23             17K
 fromhex                        2023-10-21             697
+ip                             2025-12-10             407K
 lockfile                       2023-10-21             3.7K
 lowdown                        2025-03-30             171K
 ls                             2025-03-30             25K
@@ -44,6 +47,7 @@ nc                             2023-10-21             74K
 pdksh                          2023-10-23             105K
 printf                         2023-10-23             3.0K
 proxy                          2023-10-21             173K
+readkey                        2025-12-10             35K
 sash                           2023-10-21             33K
 sed                            2023-10-21             17K
 setdate                        2023-10-21             3.4K
@@ -56,7 +60,7 @@ socks                          2023-10-21             152K
 splitvt                        2023-10-21             25K
 statx                          2023-10-21             5.5K
 tcpserver                      2023-10-21             74K
-term_readkey                   2023-10-21             17K
+term_readkey                   2025-12-10             17K
 thttpd                         2025-03-30             213K
 tic                            2025-01-09             102K
 tinysh                         2023-10-21             3.4K
@@ -69,5 +73,5 @@ xflag                          2025-03-30             5.2K
 xzd                            2023-10-21             12K
 xzminidec                      2023-10-21             97K
 ===========================================================
-                                             size: 2155 KB
+                                             size: 2910 KB
 ```
