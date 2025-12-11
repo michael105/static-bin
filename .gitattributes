@@ -70,3 +70,7 @@ iptables filter=lfs diff=lfs merge=lfs -text
 strace filter=lfs diff=lfs merge=lfs -text
 lspci filter=lfs diff=lfs merge=lfs -text
 getty filter=lfs diff=lfs merge=lfs -text
+tcc filter=lfs diff=lfs merge=lfs -text
+xorg/dzen2 filter=lfs diff=lfs merge=lfs -text
+aespipe filter=lfs diff=lfs merge=lfs -text
+argon2 filter=lfs diff=lfs merge=lfs -text
