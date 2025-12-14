@@ -74,3 +74,8 @@ tcc filter=lfs diff=lfs merge=lfs -text
 xorg/dzen2 filter=lfs diff=lfs merge=lfs -text
 aespipe filter=lfs diff=lfs merge=lfs -text
 argon2 filter=lfs diff=lfs merge=lfs -text
+polipo filter=lfs diff=lfs merge=lfs -text
+sdhcp filter=lfs diff=lfs merge=lfs -text
+dbclient filter=lfs diff=lfs merge=lfs -text
+dhconf filter=lfs diff=lfs merge=lfs -text
+dropbear filter=lfs diff=lfs merge=lfs -text
