@@ -2,7 +2,7 @@
 
 Linux 64bit
 
-Relics of my experiments with shrinking elf binaries.
+Experiments with shrinking elf binaries, statically linked.
 
 most tools accept -h / --help
 
@@ -12,7 +12,7 @@ eg blake3sum, base32, tohex,..
 
 The link to these binaries is: https://github.com/michael105/static-bin/raw/refs/heads/main/toolname
 
-(replace toolname with the tool's name. you might need to chmod a+x the downloaded file..)
+(replace toolname with the tool's name. you might need to chmod a+x the downloaded file.)
 
 
 
@@ -28,13 +28,14 @@ base32                         2025-12-11             1.1K
 base32d                        2025-12-11             1017
 base91                         2025-12-11             1.8K
 bash                           2025-12-14             984K
+bcode                          2026-01-15             12K
 blake2bsum                     2025-12-11             1.5K
 blake2sum                      2025-12-11             1.0K
 blake3sum                      2025-12-11             4.0K
 bunzip-4.1                     2025-12-26             3.8K
 busybox                        2025-12-14             978K
 conv                           2025-12-11             3.1K
-cpconv                         2025-12-11             14K
+cpconv                         2026-01-15             14K
 daft-dhcp-client               2025-12-11             11K
 dash                           2025-12-11             163K
 dbclient                       2025-12-11             396K
@@ -47,6 +48,7 @@ execstack                      2026-01-15             224K
 fosh                           2025-12-11             17K
 fromhex                        2025-12-11             697
 getty                          2025-12-11             1.1M
+hx                             2026-01-15             106K
 ip                             2025-12-11             407K
 iptables                       2025-12-11             218K
 less                           2025-12-14             470K
@@ -79,6 +81,7 @@ socks                          2025-12-11             152K
 splitvt                        2025-12-11             25K
 statx                          2025-12-11             5.5K
 strace                         2025-12-11             1.3M
+stunnel                        2026-01-15             3.3M
 tcc                            2025-12-11             2.2M
 tcpserver                      2025-12-11             74K
 term_readkey                   2025-12-11             17K
@@ -92,9 +95,11 @@ toybox-x86_64                  2025-12-14             572K
 usleep                         2025-12-11             458
 utf8conv                       2025-12-11             9.0K
 vim.902                        2025-12-14             2.7M
+whttpd                         2026-01-15             27K
+wrap                           2026-01-15             130K
 xflag                          2025-12-11             5.2K
 xzd                            2025-12-11             12K
 xzminidec                      2025-12-11             97K
 ===========================================================
-                                             size: 20863 KB
+                                             size: 24517 KB
 ```
