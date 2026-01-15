@@ -2,7 +2,7 @@
 
 Linux 64bit
 
-Relics of my experiments with shrinking elf binaries.
+Experiments with shrinking elf binaries, statically linked.
 
 most tools accept -h / --help
 
@@ -12,7 +12,7 @@ eg blake3sum, base32, tohex,..
 
 The link to these binaries is: https://github.com/michael105/static-bin/raw/refs/heads/main/toolname
 
-(replace toolname with the tool's name. you might need to chmod a+x the downloaded file..)
+(replace toolname with the tool's name. you might need to chmod a+x the downloaded file.)
 
 
 
