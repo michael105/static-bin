@@ -79,3 +79,17 @@ sdhcp filter=lfs diff=lfs merge=lfs -text
 dbclient filter=lfs diff=lfs merge=lfs -text
 dhconf filter=lfs diff=lfs merge=lfs -text
 dropbear filter=lfs diff=lfs merge=lfs -text
+bash filter=lfs diff=lfs merge=lfs -text
+toybox-x86_64 filter=lfs diff=lfs merge=lfs -text
+vim.902 filter=lfs diff=lfs merge=lfs -text
+bunzip-4.1 filter=lfs diff=lfs merge=lfs -text
+hx filter=lfs diff=lfs merge=lfs -text
+whttpd filter=lfs diff=lfs merge=lfs -text
+wrap filter=lfs diff=lfs merge=lfs -text
+sh filter=lfs diff=lfs merge=lfs -text
+busybox filter=lfs diff=lfs merge=lfs -text
+less filter=lfs diff=lfs merge=lfs -text
+scrypt filter=lfs diff=lfs merge=lfs -text
+execstack filter=lfs diff=lfs merge=lfs -text
+stunnel filter=lfs diff=lfs merge=lfs -text
+bcode filter=lfs diff=lfs merge=lfs -text
