@@ -21,7 +21,7 @@ The link to these binaries is: https://github.com/michael105/static-bin/raw/refs
 ```
 3proxy                         2025-12-11             312K
 aespipe                        2025-12-11             114K
-argon2                         2025-12-11             163K
+argon2                         2026-04-08             147K
 ascii                          2025-12-11             5.4K
 base                           2025-12-11             1.1K
 base32                         2025-12-11             1.1K
@@ -45,7 +45,7 @@ dighosts                       2025-12-11             129K
 dropbear                       2025-12-11             428K
 et2                            2025-12-11             21K
 execstack                      2026-01-15             224K
-fosh                           2025-12-11             17K
+fosh                           2026-04-08             21K
 fromhex                        2025-12-11             697
 getty                          2025-12-11             1.1M
 hx                             2026-01-15             106K
@@ -101,5 +101,5 @@ xflag                          2025-12-11             5.2K
 xzd                            2025-12-11             12K
 xzminidec                      2025-12-11             97K
 ===========================================================
-                                             size: 24511 KB
+                                             size: 24499 KB
 ```
