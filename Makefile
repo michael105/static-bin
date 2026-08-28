@@ -22,7 +22,7 @@ xorg:
 	echo '```' >> README.md
 
 sha3sums.txt: README.md
-	sha3sum `find . -maxdepth 2 -type f -executable -name '??*' | sort` > sha3sums.txt
+	sha3sum -a 256 `find . -maxdepth 2 -type f -executable -name '??*' | sort` > sha3sums.txt
 
 sha512sums.txt: README.md
 	sha512sum `find . -maxdepth 2 -type f -executable -name '??*' | sort` > sha512sums.txt
