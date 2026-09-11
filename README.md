@@ -70,10 +70,13 @@ printf                         2025-12-11             3.0K
 proxy                          2025-12-11             173K
 readkey                        2025-12-11             35K
 sash                           2025-12-11             33K
+scp                            2026-09-11             283K
 scrypt                         2026-01-15             131K
 sdhcp                          2025-12-11             50K
 sed                            2025-12-11             17K
 setdate                        2025-12-11             3.4K
+sftp                           2026-09-11             283K
+sftp-server                    2026-09-11             231K
 sh                             2026-01-15             134K
 sha1sum                        2025-12-11             912
 sha3_256                       2026-09-03             960
@@ -87,6 +90,17 @@ snake                          2025-12-11             8.1K
 snake-mikro                    2025-12-11             8.1K
 socks                          2025-12-11             152K
 splitvt                        2025-12-11             25K
+ssh                            2026-09-11             995K
+ssh-add                        2026-09-11             535K
+ssh-agent                      2026-09-11             515K
+ssh-keygen                     2026-09-11             607K
+ssh-keyscan                    2026-09-11             647K
+ssh-keysign                    2026-09-11             571K
+ssh-pkcs11-helper              2026-09-11             483K
+ssh-sk-helper                  2026-09-11             463K
+sshd                           2026-09-11             659K
+sshd-auth                      2026-09-11             1.1M
+sshd-session                   2026-09-11             1.1M
 statx                          2025-12-11             5.5K
 strace                         2025-12-11             1.3M
 stunnel                        2026-01-15             3.3M
@@ -109,5 +123,5 @@ xflag                          2025-12-11             5.2K
 xzd                            2025-12-11             12K
 xzminidec                      2025-12-11             97K
 ===========================================================
-                                             size: 24525 KB
+                                             size: 33050 KB
 ```
