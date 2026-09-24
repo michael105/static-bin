@@ -31,7 +31,7 @@ sha512sums.txt: README.md
 
 
 check:
-	sha3sum -c sha3sums.txt
+	#sha3sum -c sha3sums.txt
 	sha512sum -c sha512sums.txt
 
 

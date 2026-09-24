@@ -2,9 +2,10 @@
 
 Linux 64bit
 
-Experiments with shrinking elf binaries, statically linked.
+Experiments with shrinking elf binaries, statically linked. 
+(uclibc,musl,minilib) 
 
-most tools accept -h / --help
+Most tools accept -h / --help
 
 Several of the tools don't have any options, they pipe stdin to stdout.
 
@@ -14,6 +15,7 @@ The link to these binaries is: https://github.com/michael105/static-bin/raw/refs
 
 (replace toolname with the tool's name. you might need to chmod a+x the downloaded file.)
 
+Checksums are in sha512sums.txt
 
 
 ### Contents
