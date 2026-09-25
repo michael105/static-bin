@@ -28,11 +28,12 @@ checksums.txt: README.md
 	sha512sum `find . -maxdepth 2 -type f -executable -name '??*' | sort` > checksums.sha512.txt
 	./checkwrite.sh skein512
 	./checkwrite.sh blake3
+	./checkwrite.sh sha3_256
 
 
 
 check:
-	#sha3sum -c sha3sums.txt
+	sha3sum -c sha3sums.txt
 	sha512sum -c checksums.sha512.txt
 	./check.sh sha512
 	./check.sh skein512
