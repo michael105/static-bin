@@ -2,7 +2,7 @@
 
 
 
-all: sha3sums.txt sha512sums.txt xorg
+all: checksums.txt xorg
 	cp README.in README.md
 	perl ./Makeindex.pl >> README.md
 	echo '```' >> README.md
@@ -23,15 +23,18 @@ xorg:
 
 sha3sums.txt: README.md
 
-#sha3sum 32 `find . -maxdepth 2 -type f -executable -name '??*' | sort` > sha3sums.txt
 
-sha512sums.txt: README.md
-	sha512sum `find . -maxdepth 2 -type f -executable -name '??*' | sort` > sha512sums.txt
+checksums.txt: README.md
+	sha512sum `find . -maxdepth 2 -type f -executable -name '??*' | sort` > checksums.sha512.txt
+	./checkwrite.sh skein512
+	./checkwrite.sh blake3
 
 
 
 check:
 	#sha3sum -c sha3sums.txt
-	sha512sum -c sha512sums.txt
-
+	sha512sum -c checksums.sha512.txt
+	./check.sh sha512
+	./check.sh skein512
+	./check.sh blake3
 
